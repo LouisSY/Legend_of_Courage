@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tiles_0
+      name: Topping1-1
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_1
+      name: Topping1-2
       rect:
         serializedVersion: 2
         x: 16
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_2
+      name: Topping1-3
       rect:
         serializedVersion: 2
         x: 32
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_3
+      name: Topping1-4
       rect:
         serializedVersion: 2
         x: 48
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_4
+      name: Topping1-5
       rect:
         serializedVersion: 2
         x: 64
@@ -2252,7 +2252,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_102
+      name: Topping2-1
       rect:
         serializedVersion: 2
         x: 0
@@ -2273,7 +2273,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_103
+      name: Topping2-2
       rect:
         serializedVersion: 2
         x: 16
@@ -2294,7 +2294,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_104
+      name: Topping2-3
       rect:
         serializedVersion: 2
         x: 32
@@ -2315,7 +2315,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_105
+      name: Topping2-4
       rect:
         serializedVersion: 2
         x: 48
@@ -2336,7 +2336,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_106
+      name: Topping2-5
       rect:
         serializedVersion: 2
         x: 64
@@ -9912,16 +9912,9 @@ TextureImporter:
       Ground3-6: 1662791720
       Ground3-7: 2053351604
       Ground3-8: 1243016531
-      Tiles_0: -434053427
-      Tiles_1: 1831576352
       Tiles_10: 2140328345
       Tiles_100: 607526204
       Tiles_101: 578478994
-      Tiles_102: 1238254114
-      Tiles_103: 1814221723
-      Tiles_104: 589144785
-      Tiles_105: -1081461378
-      Tiles_106: -952728526
       Tiles_107: 1558334887
       Tiles_108: -1992862014
       Tiles_109: 19257029
@@ -9999,7 +9992,6 @@ TextureImporter:
       Tiles_195: 1075867926
       Tiles_196: -2122760266
       Tiles_197: -1040966080
-      Tiles_2: 1773840367
       Tiles_200: 823880431
       Tiles_201: 254724788
       Tiles_202: 448705455
@@ -10094,7 +10086,6 @@ TextureImporter:
       Tiles_296: 1837872846
       Tiles_297: -923474112
       Tiles_298: 1220401130
-      Tiles_3: 2072620957
       Tiles_30: -1626150772
       Tiles_302: 1987116032
       Tiles_303: 1071037010
@@ -10188,7 +10179,6 @@ TextureImporter:
       Tiles_397: -1468737854
       Tiles_398: -801982849
       Tiles_399: 184246620
-      Tiles_4: -463185914
       Tiles_400: -1891199934
       Tiles_401: 1408966377
       Tiles_402: 505780317
@@ -10299,6 +10289,16 @@ TextureImporter:
       Tiles_97: 1348689032
       Tiles_98: 563949224
       Tiles_99: 931491123
+      Topping1-1: 1163634251
+      Topping1-2: -434053427
+      Topping1-3: -1040966080
+      Topping1-4: -814935131
+      Topping1-5: 184246620
+      Topping2-1: 578478994
+      Topping2-2: 1238254114
+      Topping2-3: 1814221723
+      Topping2-4: 589144785
+      Topping2-5: -1081461378
       WaterFall-1: 314825860
       WaterFall-10: -1203240440
       WaterFall-11: -1463965039
