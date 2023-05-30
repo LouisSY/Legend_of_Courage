@@ -698,6 +698,7 @@ GameObject:
   - component: {fileID: 929343961}
   - component: {fileID: 929343962}
   - component: {fileID: 929343963}
+  - component: {fileID: 929343964}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -849,6 +850,23 @@ MonoBehaviour:
   inputDirection: {x: 0, y: 0}
   speed: 290
   jumpForce: 16.5
+--- !u!114 &929343964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 929343958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4091177fd902844e0b4a53f790870d34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isGround: 0
+  checkRadius: 0.2
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!1 &1039760433
 GameObject:
   m_ObjectHideFlags: 0
@@ -1303,7 +1321,7 @@ GameObject:
   - component: {fileID: 1063574678}
   - component: {fileID: 1063574680}
   - component: {fileID: 1063574679}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
