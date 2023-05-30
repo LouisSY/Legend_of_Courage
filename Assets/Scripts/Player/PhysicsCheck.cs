@@ -5,9 +5,13 @@ using UnityEngine;
 
 public class PhysicsCheck : MonoBehaviour
 {
-    public bool isGround;
+    [Header("Detection Parameters")]
+    public Vector2 bottomOffset;
     public float checkRadius;
     public LayerMask groundLayer;
+    
+    [Header("Statement")]
+    public bool isGround;
     private void Update()
     {
         Check();
@@ -16,6 +20,11 @@ public class PhysicsCheck : MonoBehaviour
     public void Check()
     {
         // check the ground
-        Physics2D.OverlapCircle(transform.position, checkRadius, groundLayer);
+        isGround = Physics2D.OverlapCircle((Vector2)transform.position + bottomOffset, checkRadius, groundLayer);
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.DrawWireSphere((Vector2)transform.position + bottomOffset, checkRadius);
     }
 }
